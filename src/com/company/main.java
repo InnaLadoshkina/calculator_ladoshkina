@@ -44,7 +44,7 @@ public class main {
                     break;
                 }
             }
-            System.out.println(result);
+            System.out.println(result + " Результат расчета");
         }
     }
 }
