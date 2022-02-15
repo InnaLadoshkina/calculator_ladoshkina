@@ -7,11 +7,12 @@ import java.io.InputStreamReader;
 public class main {
     public static void main(String[] args) {
         while (true) {
-            System.out.print("Введите два числа: ");
+            System.out.print("Введите первое число: ");
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             double a = 0, b = 0, result = 0;
             try {
                 a = Integer.parseInt(reader.readLine());
+                System.out.print("Введите второе число: ");
                 b = Integer.parseInt(reader.readLine());
             } catch (IOException e) {
                 System.out.print("Error: " + e.getMessage());
